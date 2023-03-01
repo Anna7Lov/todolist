@@ -1,0 +1,47 @@
+.todo-list {
+  width: 700px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.todo-list__title { 
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  border-top: 2px double black;
+  border-bottom: 2px double black;
+}
+
+.table {
+  width: 100%;  
+  border-collapse: collapse;
+}
+
+.table__head {  
+  background-color: tomato; 
+}
+
+.table__header {
+  padding: 15px;
+}
+
+tbody:before {
+  content: "-";
+  display: block;
+  line-height: 10px;
+  color: transparent;
+}
+
+th:nth-child(1) {
+  width: 15%;
+}
+
+th:nth-child(2), th:nth-child(4) {
+  width: 25%;
+}
+
+th:nth-child(3) {
+  width: 35%;
+}

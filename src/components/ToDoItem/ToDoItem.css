@@ -1,0 +1,13 @@
+.todo-item {
+  background-color: #c2bfbf;  
+  cursor: pointer;
+}
+
+.todo-item__data {
+  text-align: center;
+  padding: 10px;
+}
+
+.todo-modal {
+  height: 5px;
+}
